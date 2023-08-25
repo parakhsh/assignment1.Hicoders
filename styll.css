@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgb(77, 77, 116);
+    height: 80px;
+    text-align: right;
+    padding-top: 25px;
+}
+
+nav ul li {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: brown;
+    border-radius: 50px 0px;
+    font-size: medium;
+    box-shadow: 157px 0px 38px -106px rgba(22, 16, 79, 0.72) inset;
+    -webkit-box-shadow: 157px 0px 38px -106px rgba(22, 16, 79, 0.72) inset;
+    -moz-box-shadow: 157px 0px 38px -106px rgba(22, 16, 79, 0.72) inset;
+    display: inline-block;
+}
+
+li {
+    padding-right: 35px;
+
+}
+
+
+#buy {
+    /* styling for buy icon*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 25px;
+    color: rgb(4, 4, 4);
+    height: 50px;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+#home {
+    /* Styling for the home icon */
+    padding-left: 200px;
+    padding-top: 50px;
+    display: inline;
+    font-size: 40px;
+    color: rgb(208, 74, 30)
+}
+
+main {
+    margin-top: 40px;
+    flex: 1;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.list,
+.hicoders {
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+#home {
+
+    margin-left: auto;
+
+}
+
+.list {
+
+    background-color: rgb(48, 47, 47);
+    color: white;
+    flex-basis: calc(20% - 10px);
+}
+
+ul li {
+
+    padding-top: 12px;
+    list-style: none;
+
+}
+
+.list li:hover {
+    transition: auto;
+    cursor: pointer;
+    color: brown;
+
+}
+
+img {
+    padding: 10px;
+    margin-left: 250px;
+}
+
+
+
+.hicoders {
+    border: 5px solid rgb(87, 5, 5);
+    background-color: rgb(244, 198, 198);
+    align-content: center;
+    flex-basis: calc(80% - 10px);
+}
+
+
+p {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer {
+    position: relative;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(55, 53, 53);
+    height: 30px;
+    font-size: 20px;
+}
+
+
+
+main {
+    margin-top: 40px;
+}
+
+
+.list,
+.hicoders {
+
+    padding: 20px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+
+section {
+    display: inline;
+
+}
